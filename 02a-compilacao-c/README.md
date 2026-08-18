@@ -1,4 +1,4 @@
-# 02 — Compilando um Código-Fonte em C
+# 02a — Compilando um Código-Fonte em C
 
 Nesta aula será apresentado o processo básico de desenvolvimento de programas em **C** utilizando a linha de comando do Linux.
 
@@ -25,13 +25,13 @@ Programa em funcionamento
 Crie um diretório para os exemplos:
 
 ```bash
-mkdir -p ~/sistemas-operacionais/02-compilacao-c
+mkdir -p ~/sistemas-operacionais/02a-compilacao-c
 ```
 
 Entre no diretório:
 
 ```bash
-cd ~/sistemas-operacionais/02-compilacao-c
+cd ~/sistemas-operacionais/02a-compilacao-c
 ```
 
 Verifique:
@@ -43,7 +43,7 @@ pwd
 Uma saída possível é:
 
 ```text
-/home/aluno/sistemas-operacionais/02-compilacao-c
+/home/aluno/sistemas-operacionais/02a-compilacao-c
 ```
 
 Durante esta aula, os arquivos serão criados dentro desse diretório.
@@ -2085,22 +2085,32 @@ será o ponto de partida para estudar vários mecanismos internos de um sistema 
 
 ---
 
-# Próxima Aula
+# Próximo Conteúdo
 
-➡️ [03 — Processos](../03-processos/README.md)
+➡️ [02b — Introdução à Linguagem C](../02b-introducao-c/README.md)
 
-Na próxima aula, o foco deixa de ser apenas o **programa armazenado em disco** e passa a ser o **programa em execução**.
+# Resumo do Conteúdo
 
-Serão explorados conceitos como:
+O próximo material apresenta uma **introdução à linguagem C para estudantes que já possuem experiência com Python**, com foco nos conceitos necessários para acompanhar as próximas aulas de **Sistemas Operacionais**. 
 
-* programa × processo;
-* PID e PPID;
-* estados de processos;
-* `ps`;
-* `top`;
-* `/proc`;
-* criação de processos;
-* `fork()`;
-* `exec()`;
-* `wait()`;
-* processos pai e filho.
+Os principais conteúdos abordados incluem:
+
+* diferenças entre Python e C;
+* tipos de dados e variáveis;
+* operadores e estruturas de controle;
+* funções e passagem de parâmetros;
+* arrays e strings;
+* endereços de memória;
+* ponteiros;
+* passagem por referência;
+* `struct`, `typedef` e `enum`;
+* stack e heap;
+* alocação dinâmica de memória;
+* `malloc()`, `calloc()`, `realloc()` e `free()`;
+* erros de acesso à memória;
+* manipulação de arquivos;
+* `stdin`, `stdout` e `stderr`;
+* compilação e depuração;
+* relação entre C e o sistema operacional.
+
+Esses conceitos servem de base para compreender posteriormente **processos, memória, arquivos, threads, chamadas de sistema e a comunicação entre programas, kernel e hardware**.

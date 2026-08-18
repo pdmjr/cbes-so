@@ -29,9 +29,9 @@ Principais tópicos:
 
 ---
 
-### 2. Compilando um Código-Fonte em C
+### 2a. Compilando um Código-Fonte em C
 
-[➡️ Acessar: Compilando um Código-Fonte em C](./02-compilacao-c/README.md)
+[➡️ Acessar: Compilando um Código-Fonte em C](./02a-compilacao-c/README.md)
 
 Introdução ao processo de criação e compilação de programas escritos em **C** utilizando a linha de comando do Linux.
 
@@ -50,13 +50,31 @@ Principais tópicos:
 * criação de um **Makefile** simples;
 * utilização do comando `make`.
 
----
+### 2b. Compilando um Código-Fonte em C
 
-## Próximos conteúdos
+[➡️ Acessar: Introdução à Linguagem C](./02b-introducao-c/README.md)
 
-Ao longo da disciplina, novos módulos serão adicionados a este repositório.
+Introdução à linguagem C para estudantes que já possuem experiência com Python. 
 
-Uma possível organização das próximas aulas é:
+Os principais conteúdos abordados incluem:
+
+* diferenças entre Python e C;
+* tipos de dados e variáveis;
+* operadores e estruturas de controle;
+* funções e passagem de parâmetros;
+* arrays e strings;
+* endereços de memória;
+* ponteiros;
+* passagem por referência;
+* `struct`, `typedef` e `enum`;
+* stack e heap;
+* alocação dinâmica de memória;
+* `malloc()`, `calloc()`, `realloc()` e `free()`;
+* erros de acesso à memória;
+* manipulação de arquivos;
+* `stdin`, `stdout` e `stderr`;
+* compilação e depuração;
+* relação entre C e o sistema operacional.
 
 ### 3. Processos
 

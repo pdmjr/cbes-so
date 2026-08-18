@@ -1243,7 +1243,7 @@ Em seguida, os códigos escritos no VS Code serão armazenados e executados dire
 
 # Próximo Assunto
 
-➡️ [02 — Compilando um Código-Fonte em C](../02-compilacao-c/README.md)
+➡️ [02a — Compilando um Código-Fonte em C](../02a-compilacao-c/README.md)
 
 Na próxima aula serão abordados:
 
