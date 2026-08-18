@@ -199,11 +199,14 @@ sistemas-operacionais/
 ├── 01-preparacao-ambiente/
 │   └── README.md
 │
-├── 02-compilacao-c/
+├── 02a-compilacao-c/
 │   ├── README.md
 │   ├── hello.c
 │   ├── argumentos.c
 │   └── Makefile
+│
+├── 02b-introducao-c/
+│   └── README.md
 │
 ├── 03-processos/
 │   ├── README.md
